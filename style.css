@@ -1,96 +1,49 @@
-*{
-   margin: 0%;
-   padding: 10px;
-   font-family: 'Times New Roman', sans-serif;  
-   
-}
 
+h1, h2{
 
-header{
-   text-align-last: center;
-   margin-top: 5px;
-   margin-bottom: 20px;
-   margin-left: 5px;
-   margin-left: 5px;
+   text-align: center;
 
 }
+
 
 .container{
-   margin: 15px 15px;
-   width: 100%;
-   padding: 8px;
-}
 
-img{
-   float: left;
-   width: 400px;
-   height: 300px;
-   padding-left: 10px;
-   padding-right: 55px;
-   padding-bottom: 25px;
-
-}
-
-.span1{
-   font-weight: bold;
-   color: red;
-}
-
-.text{
-   text-align: justify;
-   text-overflow: inherit;
-   letter-spacing: 1px;
-   word-spacing: 1px;
-   margin-top: 35px;
-   max-width: 90%;
    
-
-}
-
-h2{
-
-   width: max-content;
-
-}
-hr{
-   display: solid;
-   margin-top: auto;
-   margin-bottom: auto;
-   border: 0.5 0.5px;
-   border-bottom: 0ch;
-   
-
-}
-
-table{
-   width: 100%;
-   margin: 0%;
-   background: none;
-   border-collapse: collapse;
-
-}
-
-td, th{
-    border: 0px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even){
-    background-color: darkgrey;
-}
-
-ul{
-   margin-left: 1em;
-}
-
-a:hover{
-   color: red;
-   cursor: pointer;
-   margin: auto;
+   max-width: 100%;
+   display: flex;
+   padding-left: 15em;
+   padding-right: 15em;
      
+
 }
 
-footer{
-   text-align: center;
+.div1{
+
+   margin: 2em;
+   padding: 2em;
+   flex-basis: 33%;
+   border: 4px dashed red ;
+   float: left;
+   padding-bottom: 230px;
 }
+
+
+.div2{
+
+   margin: 2em;
+   padding: 2em;
+   flex-basis: 67%;
+   border: 4px dashed red ;
+   float: right;
+   
+}
+
+.image1{
+
+   padding: 5px;
+   width: 200px;
+   float: right;
+   text-align: justify;
+
+}
+
