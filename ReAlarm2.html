@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adventure End</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta charset="utf-8">
+	<style>
+	body {
+		background-color: slategrey;
+		text-align: center;
+		font-size: 18pt;
+		margin: .5em;
+
+	}
+	h1{ 
+		font-weight: bolder;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-style: italic;
+		color: black ;
+	}
+	p{
+
+		font-weight: bolder;
+		font-size: 20pt;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-weight: lighter;
+		color: blanchedalmond;
+	}
+
+		.end{
+			width: 100px;
+			height: 100px;
+			margin: auto;
+			position: relative;
+			border-bottom: 5px solid burlywood;
+			overflow: hidden;
+			animation: animate 4s linear forwards ;
+			
+		}
+		.end p{
+
+			font-size: 30pt;
+			color: burlywood;
+		}
+
+	@keyframes animate{
+		0%{
+			width: 0px;
+			height: 0px;
+		 }
+		50%{
+			width: 50px;
+		   height: 100px
+		 }
+		100%{
+  	      width: 200px;
+			height: 150px;
+		}
+		 
+	}
+	</style>
+</head>
+<body">
+	<div class="end">
+		<p>You Finally Woke Up....</p>
+	</div>	
+	<br><br><br>
+	<div>
+		<img src="photos/wokeup.gif" alt="sleeping gif">
+	</div>
+	<p>Realizing your alarm did not ring again and now it is past noon. You have missed school.</p>
+	<div>
+  <a class="button" href="adv_srt.html"> Start over? </a>
+	  </div>
+</body>
+</html>

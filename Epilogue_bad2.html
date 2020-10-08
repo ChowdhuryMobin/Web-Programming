@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adventure End</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<style>
+		*{
+			background-color: rgb(240, 23, 23);
+			margin: 1em;			text-align: center;
+		}
+		.image:hover{
+
+			animation: shake 0.5s;
+			animation-iteration-count: infinite;
+
+		}
+
+		@keyframes shake{
+
+			0% { transform: translate(1px, 1px) rotate(2deg);}
+			20% { transform: translate(-1px, -1px) rotate(-5deg);}
+			40% { transform: translate(-2px, 2px) rotate(0deg);}
+			60% { transform: translate(2px, -2px) rotate(-2deg);}
+			80% { transform: translate(-3px, 2px) rotate(3deg);}
+			100% { transform: translate(2px, 3px) rotate(-4deg);}
+
+		}
+	</style>
+
+</head>
+<body class="ending">
+	<div class="image">
+		  <img src="photos/angryteacher.gif" alt="angry teacher" class="image">
+	</div>	  
+	<H1> Unfortunately nobody believed your story. Your teacher was very upset and you ended up missing an important assignment.</H1>
+	  <p> While you feel good for helping the child, you regret not running to school.
+
+	  </p>
+	  
+  	<a class="button" href="adv_srt.html">Play again?</a>
+</body>
+</html>

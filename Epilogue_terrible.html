@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adventure End</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<meta charset="utf-8">
+		<style>
+			* {
+				background-color: rgb(240, 23, 23);
+				margin: 1em;
+				text-align: center;
+			}
+		
+			
+		
+			.tvimage:hover {
+		
+				animation: shake 0.5s;
+				animation-iteration-count: infinite;
+		
+			}
+		
+			@keyframes shake {
+		
+				0% {
+					transform: translate(1px, 1px) rotate(2deg);
+				}
+		
+				20% {
+					transform: translate(-1px, -1px) rotate(-5deg);
+				}
+		
+				40% {
+					transform: translate(-2px, 2px) rotate(0deg);
+				}
+		
+				60% {
+					transform: translate(2px, -2px) rotate(-2deg);
+				}
+		
+				80% {
+					transform: translate(-3px, 2px) rotate(3deg);
+				}
+		
+				100% {
+					transform: translate(2px, 3px) rotate(-4deg);
+				}
+		
+			}
+		</style>
+</head>
+<body class="ending">
+	<H1>It was a long day, but now you're home</H1>
+	<p>You turn on the TV and was just about to unwind when a news headline catches your attention. "Lost child". It says that the child was last seen 8 hours ago and could've been kidnapped. You recognized the kid in the image and your heart sinks, you could've prevented this. 
+	</p>
+	<img src="photos/tv.gif" alt="news" class="tvimage">
+	<p>And you lost your wallet....Great</p>
+
+	<img src="photos/lostwallet.gif" alt="lost wallet" class="tvimage">
+	<p> You got the terrible end, jeez were you even trying?</p>
+	<a class="button" href="adv_srt.html">Play again?<br></a>
+</body>
+</html>

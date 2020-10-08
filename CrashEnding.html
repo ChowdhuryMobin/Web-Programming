@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adventure End</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<style>
+		.end{
+			width: 100px;
+			height: 100px;
+			margin: auto;
+			position: relative;
+			border-bottom: 5px solid black;
+			overflow: hidden;
+			animation: animate 4s linear forwards infinite;
+		}
+		.end p{
+
+			color: black;
+		}
+
+	@keyframes animate{
+		0%{
+			width: 0px;
+			height: 0px;
+		 }
+		50%{
+			width: 50px;
+		   height: 100px
+		 }
+		100%{
+  	      width: 100px;
+			height: 100px;
+		}
+		 
+	}
+	</style>
+</head>
+<body class="ending">
+	<H1>*CRASH* You are dead.</H1>
+    
+	<div> 
+		<img src="photos/crash.gif" alt="sleeping gif"> 
+	</div >
+	<div class="end">
+		<p>You Died!</p>
+	</div>
+	<div> <a class="button" href="adv_srt.html">Play again?<br></a> </div>
+	
+</body>
+</html>

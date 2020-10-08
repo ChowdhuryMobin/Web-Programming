@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<title>Adventure Time</title>
+	<meta charset="utf-8">
+	<style>
+		.image{
+			width: 400px;
+			height: 300px;
+			transition: width 2s;
+			position: relative;
+			animation: run 10s infinite; 
+		}
+
+		@keyframes run{
+			0% { left: 0px; top: 0px;}
+			25% { left: 500px; top: 0px;}
+			50% { left: 500px; top: 200px; transform: scaleX(-1);}
+			75% { left: 0px; top: 200px; transform: scaleX(1); }
+			100% { left: 0px; top: 0px; }
+		}
+		#runners {
+			text-align: left;
+		}
+
+	</style>
+</head>
+<body>
+	<H1>NOT TODAY THEF</H1>
+	<p>You run after the thief as he takes you in circles around the block until you finally catch up to him and knock your wallet out of his hand. He runs off before you can call for the police, guess it's time to get back on your way.</p>
+	<div>
+		<P><a class="button" href="home_stretch_1.html">Crap I'm probably late by now..<br></a></P>
+	</div>
+	<div id="runners">
+		<img src="photos/running_man.png" alt="person" class="image">
+		<img src="photos/running_thef.png" alt="thef" class="image">
+	</div>	
+</body>
+</html>
