@@ -1,0 +1,153 @@
+body {
+    background-color: slategrey;
+    text-align: center;
+    font-size: 18pt;
+    margin: .5em;
+
+}
+
+
+h1{ 
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 30pt;
+}
+
+p{
+    font-weight: bolder;
+    font-size: 20pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: blanchedalmond;
+}
+
+.gif1{
+   
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    background-color: navy;
+    transition-duration:2000ms;
+    transition-property: background-color, transform;
+}
+
+.gif1:hover{
+   
+    background-color:rgb(230, 21, 21) ;
+    transform: rotate(360deg) ;
+
+}
+.gif2{
+   
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(252, 220, 39, 0.856);
+    transition-duration:1000ms;
+    transition-property: background-color, transform;
+  
+}
+
+.gif2:hover{
+   
+    background-color:rgb(230, 21, 21) ;
+    transform: rotate(360deg) ;
+
+}
+
+.gif3{
+
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(252, 220, 39, 0.856);
+    transition-duration:1000ms;
+    transition-property: background-color, transform;
+  
+}
+
+.gif3:hover{
+    background-color:rgb(230, 21, 21) ;
+    transform: rotate(360deg) ;
+}
+
+.gif4{
+    margin: auto;
+    padding: 30px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(252, 220, 39, 0.856);
+    transition-duration:1000ms;
+    transition-property: background-color, transform; 
+}
+
+.gif4:hover{
+   
+    background-color:rgb(230, 21, 21) ;
+    transform: rotate(360deg) ;
+
+}
+
+body.ending{
+	background-color: red;
+}
+
+body.endinggood{
+	background-color: rgba(211, 14, 218, 0.87);
+}
+
+body.breakfast{
+    background-color: sandybrown;
+    text-align: center;
+}
+		
+h1.breakfast{
+    font-style: oblique;
+    font-size: 40pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img{	
+    max-height: 100%;
+    max-width: auto;
+}
+img.breakfast{
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+img.breakfast:hover{
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.button {
+    margin: .5em;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0569a3;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.button:hover {
+	background-color: #024d78;
+}
+
+.button:active {
+    background-color: #024d78;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+
+
+
+
