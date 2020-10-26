@@ -1,0 +1,29 @@
+
+body{
+
+   width: 700px;
+   margin: 1em auto;
+   background-color: whitesmoke;
+   border: 12px goldenrod solid;
+   padding: 1em;
+
+}
+
+hr{
+   width: 95%;
+   border: 2px goldenrod solid;
+   
+}
+
+h1, h2{
+
+   font-family: sans-serif;
+   text-align: center;
+   
+}
+
+input[type="submit"]{
+   font-size: 30px;
+   font-weight: bold;
+   width: 100%;
+}
