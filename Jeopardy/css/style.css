@@ -1,0 +1,298 @@
+
+body{
+
+   font-family:Roboto;
+   background: rgba(224, 150, 52, 0.986);
+
+}
+
+.container{
+
+   height:auto;
+   width:750px;
+   top:50%;
+   left:50%;
+   position:absolute;
+   transform:translateX(-50%) translateY(-50%);
+   background: rgb(21, 161, 103);
+   padding:10px;
+   border:1px solid rgb(255, 255, 255);
+   box-shadow: 0 0 10px 10px rgb(32, 124, 93);
+
+}
+
+.title{
+
+   padding:25px;
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: center;
+
+}
+
+.question{
+
+   padding:20px;
+   font-size: 27px;
+   border-radius: 50px;
+   margin: 20px 0px 20px 5px;
+   background: #2a4881;
+   color: white;
+
+}
+
+.option{
+
+   margin: 10px;
+   display:inline-block;
+   width: 330px;
+   padding: 20px 0px 20px 20px;
+   text-align: start;
+   border-radius: 50px;
+   background: white;
+   color: black;
+   font-size: 20px;
+
+}
+
+.option:hover{
+
+   background: #2a4881;
+   color: #f6f6f6;
+   
+}
+
+.button{
+
+   margin-left: 300px;
+   margin-top: 30px;
+   width: 150px;
+   padding: 12px;
+   text-align: center;
+   border-radius: 50px;
+   background: white;
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+
+.button:hover{
+
+   background: #2a4881;
+   color: #f6f6f6;
+
+}
+
+.box {
+  width:17%;
+  text-align: center;
+  font-weight: bold;
+  background: rgb(203, 231, 40);
+  height:60px;
+  float:left;
+  transition:all 1s;
+  margin:8px;
+  padding:3px;
+  color:black;
+  font-size: 25px;
+
+}
+
+.box:hover{
+
+   background: #2a4881;
+   color: #f6f6f6;
+
+}
+
+a{
+   text-decoration: none;
+}
+
+h1{
+
+   text-align: center;
+
+}
+
+#bannerarea{
+    margin-bottom: 2em;
+    margin-top: 2em;
+    width: 250px;
+}
+
+legend {
+    background-color: white;
+    border: 2px outset gray;
+    padding: 0.2em;
+}
+
+fieldset {
+    background: rgb(21, 161, 103);;
+    border: 2px outset gray;
+    border-radius: 10px;
+}
+
+fieldset strong,
+ul strong,
+fieldset label.left,
+fieldset .column {
+    float: left;
+    width: 11em;
+}
+
+body > div, form {
+  overflow: hidden;
+  width: 35em;
+}
+
+input[type="submit"] {
+  background: rgb(203, 231, 40);
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.button {
+    margin: .5em;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: rgb(203, 231, 40);
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+}
+
+.button:hover {
+  background: #2a4881;
+}
+
+.button:active {
+    background: #2a4881;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.logout{
+
+  position: absolute;
+  margin-left: 35em;
+  margin-top: 28em;
+  font-family: Arial, sans-serif;
+  padding: 10px 30px 10px;
+  font-size:20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: rgb(198, 223, 58);
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  cursor: pointer;
+
+}
+
+.logout:hover {
+  background: #2a4881;
+}
+
+.logout:active {
+    background: #ffffff;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.score{
+
+   margin-top: 40px;
+   margin-left: 220px;
+   font-size: 50px;
+   font-weight: bold;
+   padding: 50px;
+
+}
+
+.button1{
+
+   margin-top: 50px; 
+   margin-left: 270px;
+   font-family: Arial, sans-serif;
+   font-size: 25px;
+   display: inline-block;
+   padding: 10px 30px 10px;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   background: rgb(203, 231, 40);
+   border-radius: 15px;
+   box-shadow: 0 5px #999;
+
+}
+
+.button1:hover {
+  background: #2a4881;
+  color: white;
+}
+
+.button1:active {
+    background: #5a77ad;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+
+.hscores{
+
+   max-width: 100%;
+   font-size: 20px;
+   line-height: 50px;
+   font-weight: bolder;
+
+}
+
+.button2{
+
+   align-items: center;
+   font-family: Arial, sans-serif;
+   font-size: 25px;
+   display: inline-block;
+   padding: 10px 30px 10px;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   background: rgb(203, 231, 40);
+   border-radius: 15px;
+   box-shadow: 0 5px #999;
+
+}
+
+.button2:hover {
+  background: #2a4881;
+  color: white;
+}
+
+.button2:active {
+    background: #5a77ad;
+    box-shadow: 0 3px #666;
+    transform: translateY(2px);
+}
+
+.image {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.dialogue {
+  text-align: center;
+}
+
+.center-banner {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
