@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Question #5</title>
+</head>
+
+<body>
+   <h1>OPEN CONSOLE </h1>
+   <script>
+      function shuffle(a) {
+         var i,j,x;
+         for (i = a.length - 1; i > 0; i--) {
+            j = Math.floor(Math.random() * (i + 1));
+            x = a[i];
+            a[i] = a[j];
+            a[j] = x;
+         }
+         return a;
+      }
+      var arr1 = ['1', '2', '3', '4', '5', '6']
+      console.log(shuffle(arr1));
+   </script>
+</body>
+
+</html>
