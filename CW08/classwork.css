@@ -1,0 +1,33 @@
+.main{
+
+   padding:10px;
+   margin:20px;
+
+}
+
+.table{
+
+   padding:10px;
+   margin:20px;
+}
+
+tr, td{
+   font-size: 20px;
+   padding-top: 30px;
+}
+
+.blank {
+
+  color: red;
+  display: block;
+  text-decoration: underline;
+  
+}
+
+.output{
+
+   font-size: 20px;
+   padding:20px;
+   margin:20px;
+
+}
