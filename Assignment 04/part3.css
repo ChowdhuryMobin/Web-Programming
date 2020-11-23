@@ -1,0 +1,74 @@
+*{
+   background-color: rgb(231, 134, 22);
+   text-align: center;
+}
+
+div#board {
+   background: rgb(224, 48, 48);
+   border: rgb(255, 255, 255) 5px solid;
+   width: 820px;
+   height: 520px;
+   padding: 24px;
+   margin:auto;
+}
+
+div#board>div {
+   background: url(tile_bg.jpg) no-repeat;
+   border: rgb(0, 0, 0) 2px solid;
+   width: 71px;
+   height: 71px;
+   float: left;
+   margin: 10px;
+   padding: 20px;
+   font-size: 64px;
+   cursor: pointer;
+   text-align: center;
+}
+
+div {
+   width: 100px;
+   height: 100px;
+   background: red;
+   position: relative;
+   -webkit-animation: mymove 120s;
+   -webkit-animation-play-state: paused;
+   animation: mymove 120s;
+   animation-play-state: paused;
+   }
+.button{
+
+   border-radius: 3px;
+   color: black;
+   background-color:rgb(224, 48, 48);
+   cursor: pointer;
+   padding: 5px;
+   padding-left: 30px ;
+   padding-right: 30px ;
+   font-size: 20px;
+
+}
+
+.button:hover{
+
+   background-color: rgb(15, 69, 117);
+   cursor: pointer;
+   color: aliceblue;
+   
+}
+
+@-webkit-keyframes mymove {
+   from {
+      left: 0px;
+   }
+   to {
+   left: 100px;
+   }
+}
+@keyframes mymove {
+   from {
+      left: 0px;
+   }
+   to {
+      left: 100px;
+   }
+}

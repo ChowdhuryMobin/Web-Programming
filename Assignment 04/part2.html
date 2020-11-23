@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>PART B</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="part2.css" rel="stylesheet">
+      <script src="part2.js"></script>
+   </head>
+   <body>
+      <h1>Guess a number between (1 - 100).</h1>
+      <h2>Max attempts 5.</h2>  
+      <form onload="guess()" class="form">
+         <input type="numbers" name="number" id="number" required>
+         <input type="button" name="button" value="Submit" onclick="check_num()" class="button">
+         <h2 id="attempts"></h2>
+      </form>
+   </body>
+</html>
