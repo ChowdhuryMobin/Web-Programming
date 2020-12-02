@@ -1,0 +1,74 @@
+/*Group 14 CSS for fifteen puzzle*/
+
+h1, 
+#timer,
+#overview,
+#win_text,
+input[type="button"], 
+.buttons{
+	text-align: center;
+}
+/*Makes 400x400 space for puzzle*/
+#puzzle,
+#game {
+	width: 400px;
+}
+
+.buttons{
+	margin-top: 1em;
+}
+
+#game{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#puzzle{
+	font-size: 32px;
+	height: 400px;
+	padding: 0px;
+	position: relative;
+}
+
+/*Creates requirements so that each tile is only 100x100*/
+.blockedTile,
+.freeTile,
+.puzzleTile {
+	border: 2px solid black;
+	height: 96px;
+	width: 96px;
+	line-height: 96px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*Underlines the number in tile (For better user experience)*/
+.blockedTile,
+.freeTile {
+	text-decoration: underline;
+}
+
+.blockedTile {
+	border: 2px solid black;
+	color: #000;
+}
+
+.freeTile {
+	border: 2px solid green;
+	color: #229103;
+}
+
+#validator {
+	text-align: right;
+}
+#win{
+    text-align: center; 
+    font-size: 50pt;
+    background-color: paleturquoise;
+}
+.main{
+    background-color: aliceblue;
+    font-family: sans-serif, Roboto;
+    font-size: 15pt;
+}
