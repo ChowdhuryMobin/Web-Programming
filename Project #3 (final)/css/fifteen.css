@@ -50,7 +50,7 @@ input[type="button"],
 }
 
 .blockedTile {
-	border: 2px solid black;
+	border: 2px solid red;
 	color: #000;
 }
 
